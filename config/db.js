@@ -3,11 +3,11 @@
  */
 
 module.exports = {
-  name: 'bookstore', 
-  user: 'root',
-  password: 'mysql101',
+  name: 'heroku_624f1c0cac1c6ec', 
+  user: 'b90a7dddd7fd20',
+  password: 'e06f6dc8',
   config: {
-    host: 'localhost',
+    host: 'eu-cdbr-west-02.cleardb.net',
     dialect: 'mysql',
     logging: false,
   }
