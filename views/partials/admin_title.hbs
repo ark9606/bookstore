@@ -1,0 +1,20 @@
+<header class="container">  
+  <div class="justify-content-center">
+    <div class="col">
+      <h1 style="text-align: center">
+        <a class="nav-link" href="/admin">BOOK STORE | Admin</a>
+      </h1>
+    </div>
+
+
+    <div class="btn-group d-flex justify-content-end" role="group">
+
+      {{#if isSigned}}
+        <a href="/admin/auth/signout" class="btn btn-light">Sign out</a>
+      {{/if}}     
+
+    </div>
+  </div>
+
+
+</header>
